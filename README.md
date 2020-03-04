@@ -88,12 +88,15 @@ Before compiling your own version follow the Easy Way instructions above. Then d
     ```
 4. PyInstaller will create a dist folder and you should be able to find app.exe inside. Copy app.exe and replace the file app.exe file you have from [holdslipprinter.zip](https://github.com/RonBulaon/HoldSlipPrinter/raw/master/compiled/holdslipprinter.zip).
 
-### Acknowldements :
+
+## Acknowldements :
 I have used [WK<html>TOPDF](https://wkhtmltopdf.org/downloads.html) to convert HTML files to PDF. Check their [github page here](https://github.com/wkhtmltopdf/wkhtmltopdf). For sending files to printer I've used [PDFtoPRinter](http://www.columbia.edu/~em36/pdftoprinter.html). This program will send PDFs to printer from a windows command line.
 
-### Other Ideas:
+
+## Other Ideas:
 * What about a version of this on a headless single board PCs?
 
-### Copyright
+
+## Copyright
 Copyright (c) 2020 Ron Ron Bulaon <br>
 Licensed under the MIT License(MIT). See LICENSE.md for more info.
