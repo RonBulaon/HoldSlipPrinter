@@ -51,10 +51,10 @@ These instructions does not cover installation of your printer. This app will se
      * **count** - number of emails to be check. Example if you put 20, the 1st 20 emails will be checked.
      * **folder** - folder name of the log file destination
      * **retention** - number of days to keep the log files.
-3. Open Windows' [Task Scheduler](https://docs.microsoft.com/en-us/windows/win32/taskschd/using-the-task-scheduler), create and configure a basic task to run app.exe at each computer startup. Here's the settings I've used for your reference. This part may differ depending on PC setup/environment.
-     * **General Tab** <br> ![general](/img/image1.png)
-     * **Triggers Tab** <br> ![general](/img/image2.png)
-     * **Actions Tab** <br> ![general](/img/image3.png)
+3. Open Windows' [Task Scheduler](https://docs.microsoft.com/en-us/windows/win32/taskschd/using-the-task-scheduler), create and configure a basic task to run app.exe at each computer startup. Here's the settings I've used for your reference. This part may differ depending on PC setup/environment. The goal here is to ensure that the application is always running.
+     * **General Tab** <br> ![General](/img/image1.png)
+     * **Triggers Tab** <br> ![Triggers](/img/image2.png)
+     * **Actions Tab** <br> ![Actions](/img/image3.png)
 4. On the printer settings, set the printer to keep printed documents. This will prevent the printer to print multiple copies of the slips. Here's how I set mine:
      * **Advance Tab of printer settings** <br> ![printer settings](/img/image7.png)
 5. This step is optional but recommended to run these scripts at least once a day.
@@ -62,9 +62,9 @@ These instructions does not cover installation of your printer. This app will se
      * **restartSpooler.bat** This script will clear all the printed logs at the printer's print queue. If you have low volume of printouts you can schedule this to once a week. Mine is on daily.
 
      Here's how I set mine:
-      * **General Tab** <br> ![general](/img/image4.png)
-      * **General Tab** <br> ![general](/img/image5.png)
-      * **General Tab** <br> ![general](/img/image6.png)
+      * **General Tab** <br> ![General](/img/image4.png)
+      * **Triggers Tab** <br> ![Triggers](/img/image5.png)
+      * **Actions Tab** <br> ![Actions](/img/image6.png)
 
       _Note : I did these settings for both scripts and the scripts assumes that the folders' location is at Program Files._
 
@@ -72,7 +72,7 @@ These instructions does not cover installation of your printer. This app will se
 Before compiling your own version follow the Easy Way instructions above. Then do the following:
 1. Clone this repository.
     ```
-    git clone ttps://github.com/RonBulaon/HoldSlipPrinter.git
+    git clone https://github.com/RonBulaon/HoldSlipPrinter.git
     ```
 2. Go to the downloaded repository's source folder and install the requirements.
     ```
