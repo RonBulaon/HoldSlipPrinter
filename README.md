@@ -16,7 +16,7 @@
 
 ## How to use this:
 You have two options to choose from:
-1. Easy way : Download and configure the compiled versions on compiled directory.
+1. Easy way : Download and configure the binaries from compiled directory.
 2. Compile a copy : Clone this repository and compile your own version.
 
 ### Easy Way:
