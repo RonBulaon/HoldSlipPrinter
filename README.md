@@ -98,5 +98,5 @@ I have used [WK<html>TOPDF](https://wkhtmltopdf.org/downloads.html) to convert H
 
 
 ## Copyright
-Copyright (c) 2020 Ron Ron Bulaon <br>
+Copyright (c) 2020 Ron Bulaon <br>
 Licensed under the MIT License(MIT). See LICENSE.md for more info.
